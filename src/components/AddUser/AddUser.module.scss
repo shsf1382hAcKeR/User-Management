@@ -19,5 +19,9 @@
       outline: none;
       border-color: #4f005f;
     }
+    &[type="number"]::-webkit-inner-spin-button,
+    &[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none !important;
+    }
   }
 }
